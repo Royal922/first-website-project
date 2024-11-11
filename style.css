@@ -2,6 +2,22 @@
     cursor: not-allowed;
   }
 
+/* Footer */
+
+footer {
+    background-color: white;
+    width:100%;
+    padding:20px;
+    
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.support-links {
+    margin-left:50px;
+}
 /* NavBar */
 
     .navbar-brand {
@@ -393,6 +409,4 @@
     padding: 10px 15px;
     }
 
-    .empty-cart-img {
-        width: 80%;
-    }
+ 
