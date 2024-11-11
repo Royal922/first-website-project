@@ -5,18 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- Bootstrap Icons CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
         <!-- Bootstrap JavaScript -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <!-- Website CSS --> 
         <link rel="stylesheet" type="text/css" href="style.css">
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- Title -->
         <title>Cart</title>
     </head>
@@ -44,6 +45,93 @@
                     <li><a href="cart.html"><span class = 'glyphicon glyphicon-shopping-cart'></span>Cart</a></li>
                 </ul>
         </nav>
-        
+        <div class="container text-navy">
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="ibox">
+                            <div class="ibox-title">
+                                <span class="pull-right">(<strong>0</strong>) items</span>
+                                <h5>Items in your cart</h5>
+                            </div>
+                            <div class="ibox-content text-center">
+                                <img  src="https://bookscape.com/_next/static/media/empty-cart.934402c7.png">
+                                    
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ibox">
+                            <div class="ibox-title">
+                                <h5>Cart Summary</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <span>
+                                    Total
+                                </span>
+                                <h2 class="font-bold total">
+                                    $0
+                                </h2>
+            
+                                <hr>
+                                <span class="text-muted small">
+                                    *For United States, France and Germany applicable sales tax will be applied
+                                </span>
+                                <div class="m-t-sm">
+                                    <div>
+                                    <a href="#" class="btn btn-primary btn-sm cart-btn checkout-btn"><i class="fa fa-shopping-cart"></i> Checkout</a>
+                                    <a href="#" class="btn btn-primary btn-sm cart-btn"> Cancel</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="ibox">
+                            <div class="ibox-title">
+                                <h5>Support</h5>
+                            </div>
+                            <div class="ibox-content text-center">
+                                <h3><i class="fa fa-phone"></i> 922-123-4567 </h3>
+                                <span class="small">
+                                    Please contact with us if you have any questions. We are avalible 24h.
+                                </span>
+                            </div>
+                        </div>
+            
+                        <div class="ibox">
+                            <div class="ibox-content">
+            
+                                <p class="font-bold">
+                                Other products you may be interested
+                                </p>
+                                <hr>
+                                <div>
+                                    <a href="#" class="product-name"> Product 1</a>
+                                    <div class="small m-t-xs">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim porttitor lorem, a congue odio tempus eu. Quisque feugiat aliquet.
+                                    </div>
+                                    <div class="m-t text-righ">
+            
+                                        <a href="#" class="btn btn-xs btn-outline btn-primary cart-btn">Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    <a href="#" class="product-name"> Product 2</a>
+                                    <div class="small m-t-xs">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim porttitor lorem, a congue odio tempus eu. Quisque feugiat aliquet.
+                                    </div>
+                                    <div class="m-t text-righ">
+            
+                                        <a href="#" class="btn btn-xs btn-outline btn-primary cart-btn">Info <i class="fa fa-long-arrow-right"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
     </body>
 </html>

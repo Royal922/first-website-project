@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">WebsiteLogo</a>
+                <p class="navbar-brand" href="#">WebsiteLogo</p>
             </div>
         
             <!-- Collect the nav links for toggling -->
@@ -45,27 +45,53 @@
                     <li><a href="cart.html"><span class = 'glyphicon glyphicon-shopping-cart'></span>Cart</a></li>
                 </ul>
         </nav>
-        <div class="container">
+        <div class="container bg-1 ">
             <div>
                 <div class="contact-header text-center">
                     <h1>Contacts</h1>
                 </div>
-                <div class="contact-info">
-                    <!-- email -->
-                    <div class=" info-class">
-                        <h3>Email: <span class="info">fabfkadivikdbiuajfbsju</span></h3>
+                <div class="row">
+                    <div class="contact-info col-sm-6">
+
+                        <label for="email">Email:</label>
+                        <h4 class="info" id="email">fabfkadivikdbiuajfbsju</h4>
+                        
+                        <label for="number">Business Number</label>
+                        <h4 class="info" id="number">922-123-4567</h4>
+                        
+                        <label for="socials">Socail Media</label> 
+                        <div class="info socials"> 
+                            <h4>Facebook: bdjhbgdhvbfsdjkbfksd</h4>
+                            <h4>Instagram: ndjbvRoyalbsvakfkhfg</h4>
+                            <h4>Twitter: alpqjfobjeiqbjdbfbfegbnfhj922</h4>
+                        </div>
+                        
+                        
                     </div>
-                    <!-- business-number -->
-                    <div class=" info-class">
-                        <h3>Business Number: <span class="info">922-123-4567</span></h3>
-                    </div>  
-                    <!-- social-media-links -->
-                    <div class="info-class">
-                        <h3>Facebook: <span class="info">bdjhbgdhvbfsdjkbfksd</span></h3>
-                        <h3>Instagram: <span class="info">ndjbvRoyalbsvakfkhfg</span></h3>
-                        <h3>Twitter: <span class="info">alpqjfobjeiqbjdbfbfegbnfhj922</span></h3> 
+                    
+                    <div class="contact-input col-sm-6">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                              <option value="australia">Australia</option>
+                              <option value="canada">Canada</option>
+                              <option value="usa">USA</option>
+                            </select>
+                        
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                        </form>
                     </div>
                 </div>
+                
             </div>
         </div>
     </body>
